@@ -110,6 +110,9 @@ Scores** pagerank(DiGraph* g, int k) {
     // step k >= 1
     for (int i=1; i<=k; i++) {
         // IMPLEMENT YOUR SOLUTION HERE
+        printf("WARNING: pagerank not implemented yet...\n");
+        exit(1);
+        // IMPLEMENT YOUR SOLUTION ABOVE
     }
     return scores;
 }
@@ -118,7 +121,7 @@ int main() {
     // # Exercice 1: Load a first example graph
     printf("\nExercice 1:\n");
 
-    FILE* fp  = fopen("res/example_1.txt", "r");
+    FILE* fp  = fopen("./res/example_1.txt", "r");
     DiGraph* g = readDigraph(fp);
     fclose(fp);
 
