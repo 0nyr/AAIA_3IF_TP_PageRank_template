@@ -2,3 +2,8 @@
 obj/
 bin/
 *.o
+
+# NixOs specific
+result/
+flake.lock
+flake.nix
